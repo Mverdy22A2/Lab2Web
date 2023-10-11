@@ -1,6 +1,7 @@
-# Lab2Web
+# Langkah-langkah Praktikum
 
-## 1. Dokumen awal 
+## 1. Membuat dokumen HTML
+- Buatlah dokumen HTML seperti berikut
 
 ![Screenshot (3)](https://github.com/verz666/Lab2Web/assets/115523263/59e5d497-3d48-4011-8535-fef79012ea62)
 
@@ -9,6 +10,7 @@
 ![Screenshot (4)](https://github.com/verz666/Lab2Web/assets/115523263/c9313857-2e8c-47b8-b0cc-e6b60cda6ae5)
 
 ## 2. Menambahkan deklarasi CSS internal
+- Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
 
 ![Screenshot (5)](https://github.com/verz666/Lab2Web/assets/115523263/800e8a97-cfa7-475b-9ce5-1919e8834dfb)
 
@@ -17,6 +19,7 @@
 ![Screenshot (6)](https://github.com/verz666/Lab2Web/assets/115523263/79108c35-5b18-41df-bedf-669009a599b9)
 
 ## 3. Menambahkan deklarasi inline CSS pada tag ``` <p> ```
+- Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
 
 ![Screenshot (7)](https://github.com/verz666/Lab2Web/assets/115523263/66ca70f4-6fbd-4189-b8e3-4463cdf5fac2)
 
@@ -25,6 +28,7 @@
 ![Screenshot (8)](https://github.com/verz666/Lab2Web/assets/115523263/1f907b40-efa3-4704-984d-45ba17db807e)
 
 ## 4. Menambahkan CSS Eksternal
+- Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
 
 ![Screenshot (9)](https://github.com/verz666/Lab2Web/assets/115523263/57e71c11-53a5-484a-bb2e-9ac6f9e55630)
 
@@ -37,6 +41,7 @@
 ![Screenshot (11)](https://github.com/verz666/Lab2Web/assets/115523263/74cb4ab0-add6-463d-8db1-e057f4a2634d)
 
 ## 5. Menambahkan CSS Selector
+- Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut.
 
 ![image](https://github.com/verz666/Lab2Web/assets/115523263/c11995fc-3803-435d-b4a2-6bc247f22798)
 
@@ -95,7 +100,7 @@ Dalam contoh di atas, elemen ```<h1>``` di luar elemen "intro" akan memiliki war
 
 ## 2. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
-Ketika Anda memiliki deklarasi CSS secara internal, eksternal, dan inline yang mengarah ke elemen yang sama di halaman web, maka aturan CSS yang akan diterapkan oleh browser akan mengikuti konsep prioritas dan spesifisitas. Di bawah ini adalah urutan prioritas dari yang paling tinggi hingga yang paling rendah:
+Ketika Kita memiliki deklarasi CSS secara internal, eksternal, dan inline yang mengarah ke elemen yang sama di halaman web, maka aturan CSS yang akan diterapkan oleh browser akan mengikuti konsep prioritas dan spesifisitas. Di bawah ini adalah urutan prioritas dari yang paling tinggi hingga yang paling rendah:
 
 1. Inline CSS: Inline CSS memiliki prioritas tertinggi. Deklarasi CSS yang ada dalam atribut ```style``` elemen HTML akan selalu menggantikan aturan CSS lainnya.
 
@@ -158,7 +163,7 @@ Untuk memberikan penjelasan lebih lanjut, berikut adalah contoh elemen HTML yang
     ```html
     <p id="paragraf-1" class="text-paragraf">Ini adalah paragraf.</p>
 
-Jika Anda memiliki deklarasi CSS seperti ini:
+Jika Kita memiliki deklarasi CSS seperti ini:
 
     ```css
     #paragraf-1 {
@@ -171,7 +176,7 @@ Jika Anda memiliki deklarasi CSS seperti ini:
 
 Maka, dalam kasus ini, aturan CSS yang akan diterapkan adalah aturan yang menggunakan ID selector, yaitu ```#paragraf-1```. Oleh karena itu, teks dalam paragraf akan berwarna biru, sesuai dengan deklarasi CSS yang menggunakan ID selector.
 
-Namun, jika Anda membalikkan urutan deklarasi CSS seperti ini:
+Namun, jika Kita membalikkan urutan deklarasi CSS seperti ini:
 
     ```css
     .text-paragraf {
